@@ -221,5 +221,18 @@ questions = {
     "question_example_two_explanation" : "2가 nums에 없으므로 -1을 반환합니다.",
     "question_scaffold" : "class Solution:\n    def search(self, nums: List[int], target: int) -> int:\n",
     "question_tag": "Binary Search"
+},
+18: {
+    "id" : 18,
+    "title" : "이진탐색",
+    "question_content" : "SmallestInfiniteSet 클래스를 구현하십시오:\n\n - SmallestInfiniteSet() : 모든 양의 정수 [1, 2, 3, 4, 5, ...]를 포함하는 SmallestInfiniteSet 객체를 초기화합니다.\n\n - int popSmallest() : 무한 집합에 포함된 가장 작은 정수를 제거하고 반환합니다.\n\n - void addBack(int num) : 양의 정수 num이 무한 집합에 없는 경우 무한 집합에 추가합니다.",
+    "question_example_one_test" : "[\"SmallestInfiniteSet\", \"addBack\", \"popSmallest\", \"popSmallest\", \"popSmallest\", \"addBack\", \"popSmallest\", \"popSmallest\", \"popSmallest\"], \n [[], [2], [], [], [], [1], [], [], []]",
+    "question_example_one_answer" : "[null, null, 1, 2, 3, null, 1, 4, 5]",
+    "question_example_one_explanation" : "\n Class 초기화 \n 2를 추가합니다, 2는 이미 무한 집합에 있습니다. \n 가장 작은 정수 1을 제거하고 반환합니다. \n 가장 작은 정수 2를 제거하고 반환합니다. \n 가장 작은 정수 3을 제거하고 반환합니다. \n 1을 추가합니다, 1은 무한 집합에 없기 때문에 추가 됩니다. \n 가장 작은 정수 1을 제거하고 반환합니다. \n 가장 작은 정수 4를 제거하고 반환합니다. \n 가장 작은 정수 5를 제거하고 반환합니다.",
+    "question_example_two_test" : "[\"SmallestInfiniteSet\",\"addBack\",\"popSmallest\",\"popSmallest\",\"popSmallest\",\"addBack\",\"popSmallest\",\"popSmallest\",\"popSmallest\"],[[],[2],[],[],[],[1],[],[],[]]",
+    "question_example_two_answer" : "[null,null,1,2,3,null,1,4,5]",
+    "question_example_two_explanation" : "",
+    "question_scaffold" : "class SmallestInfiniteSet:\n    def __init__(self):\n\n\n    def popSmallest(self) -> int:\n\n\n    def addBack(self, num: int) -> None:\n\n\n",
+    "question_tag": "Heap, OOP"
 }
 }
